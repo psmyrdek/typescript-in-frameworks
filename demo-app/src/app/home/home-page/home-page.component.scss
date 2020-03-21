@@ -1,0 +1,28 @@
+.feed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.feed-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feed-entry {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+
+    p {
+        padding-left: 10px;
+        border-left: 2px solid #1b5abd;
+    }
+}
