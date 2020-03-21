@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start:data": "ts-node data.ts",
-    "start:01": "ts-node examples/01-class-interface.ts",
-    "start:02": "ts-node examples/02-decorators.ts",
-    "start:03": "ts-node examples/03-generics.ts",
-    "start:04": "tsc examples/04-lazy-loading/app.ts --lib es2018,dom --module esnext --target es5 && live-server examples/04-lazy-loading"
+    "start:01": "ts-node examples/01-types.ts",
+    "start:02": "ts-node examples/02-class-interface.ts",
+    "start:03": "ts-node examples/03-decorators.ts",
+    "start:04": "ts-node examples/04-generics.ts",
+    "start:05": "tsc examples/05-lazy-loading/app.ts --lib es2018,dom --module esnext --target es5 && live-server examples/05-lazy-loading"
   },
   "author": "psmyrdek",
   "license": "ISC",
