@@ -1,46 +1,5 @@
 <div class="feed">
     <div class="feed-wrapper">
-        <div class="feed-entry">
-            <h3>John Doe</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eros massa, ultrices a purus id, faucibus convallis ipsum. Aliquam erat volutpat. Suspendisse et tincidunt ipsum. Vestibulum vitae urna libero. Donec posuere, nulla quis euismod faucibus, tortor odio condimentum mauris, eget imperdiet orci lectus eget massa. Vivamus malesuada id ante sit amet consequat. Aliquam non nulla a enim volutpat ullamcorper sit amet a mauris.
-            </p>
-        </div>
-        <div class="feed-entry">
-            <h3>Mark Kaminski</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eros massa, ultrices a purus id, faucibus convallis ipsum. Aliquam erat volutpat. Suspendisse et tincidunt ipsum. Vestibulum vitae urna libero.
-            </p>
-        </div>
-        <div class="feed-entry">
-            <h3>John Doe</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eros massa, ultrices a purus id, faucibus convallis ipsum. Aliquam erat volutpat. Suspendisse et tincidunt ipsum. Vestibulum vitae urna libero. Donec posuere, nulla quis euismod faucibus, tortor odio condimentum mauris, eget imperdiet orci lectus eget massa. Vivamus malesuada id ante sit amet consequat. Aliquam non nulla a enim volutpat ullamcorper sit amet a mauris.
-            </p>
-        </div>
-        <div class="feed-entry">
-            <h3>Dolores Abel</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eros massa, ultrices a purus id, faucibus convallis ipsum. Aliquam erat volutpat. Suspendisse et tincidunt ipsum. Vestibulum vitae urna libero. Donec posuere, nulla quis euismod faucibus, tortor odio condimentum mauris, eget imperdiet orci lectus eget massa. Vivamus malesuada id ante sit amet consequat. Aliquam non nulla a enim volutpat ullamcorper sit amet a mauris.
-            </p>
-        </div>
-        <div class="feed-entry">
-            <h3>John Doe</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eros massa, ultrices a purus id, faucibus convallis ipsum. Aliquam erat volutpat. Suspendisse et tincidunt ipsum. Vestibulum vitae urna libero. Donec posuere, nulla quis euismod faucibus, tortor odio condimentum mauris, eget imperdiet orci lectus eget massa. 
-            </p>
-        </div>
-        <div class="feed-entry">
-            <h3>Mark Kaminski</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eros massa, ultrices a purus id, faucibus convallis ipsum. Aliquam erat volutpat. Suspendisse et tincidunt ipsum. Vestibulum vitae urna libero. Donec posuere, nulla quis euismod faucibus, tortor odio condimentum mauris, eget imperdiet orci lectus eget massa. Vivamus malesuada id ante sit amet consequat. Aliquam non nulla a enim volutpat ullamcorper sit amet a mauris.
-            </p>
-        </div>
-        <div class="feed-entry">
-            <h3>Mark Kaminski</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eros massa, ultrices a purus id, faucibus convallis ipsum. Aliquam erat volutpat. Suspendisse et tincidunt ipsum. Vestibulum vitae urna libero. Donec posuere, nulla quis euismod faucibus, tortor odio condimentum mauris.
-            </p>
-        </div>
+        <app-feed-entry *ngFor="let entry of feed" [feedEntry]="entry"></app-feed-entry>
     </div>
 </div>

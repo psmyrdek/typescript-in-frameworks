@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomePageComponent } from './home-page/home-page.component';
 import { RouterModule } from '@angular/router';
+import { FeedEntryComponent } from './feed-entry/feed-entry.component';
 
 const routing = RouterModule.forChild([
   {
@@ -11,7 +12,7 @@ const routing = RouterModule.forChild([
 ])
 
 @NgModule({
-  declarations: [HomePageComponent],
+  declarations: [HomePageComponent, FeedEntryComponent],
   imports: [
     routing,
     CommonModule
