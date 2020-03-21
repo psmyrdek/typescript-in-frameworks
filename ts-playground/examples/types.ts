@@ -18,4 +18,4 @@ function toRgb(color: string) {
 
 const hex = '#eaeaea';
 const asRgb = toRgb(hex);
-// const red = asRgb[1] * 0.1;
+const red = asRgb[1] * 0.1;
