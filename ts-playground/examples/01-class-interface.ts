@@ -2,6 +2,10 @@ interface OnInit {
     ngOnInit: () => void;
 }
 
+interface OnDestroy {
+    ngOnDestroy: () => void;
+}
+
 class MyComponent implements OnInit {
 
     ngOnInit() {
